@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #304e42;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #304e42;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+header nav a:hover {
+    color: #623412;
+}
+
+.banner {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    color: #304e42;
+}
+
+.banner p {
+    color: #623412;
+    margin: 1rem 0;
+}
+
+.banner .cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #304e42;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.banner .cta-button:hover {
+    background-color: #623412;
+}
+
+.about {
+    background-color: #623412;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.services {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.services h2 {
+    color: #304e42;
+}
+
+.service-card {
+    background-color: #304e42;
+    color: #ffffff;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+footer {
+    background-color: #623412;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
